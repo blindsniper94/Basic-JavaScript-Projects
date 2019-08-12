@@ -1,0 +1,56 @@
+body {
+   background-color: #f9f7f7;
+}
+#menu{
+   box-sizing: border-box;
+}
+#menu>h1{
+    text-align: center;
+}
+
+.buttonHolder{
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    margin: 0% auto;
+    width: 550px;
+}
+#btnOrder{
+}
+#btnClear{
+
+}
+#formMenu{
+    
+}
+.menu_options{
+    float: left;
+    padding: 50px;
+    border: 2px solid #112d4e;
+    width: 33%;
+    padding: 0px;
+    height: 300px;
+    background-color: #3f72af;
+    color: #dbe2ef;
+    border-radius: 15px;
+    padding-top: 50px;
+}
+.menu_options>h2{
+    text-align: center;
+}
+
+#pizza_cart{
+    display: block;
+    text-align: center;
+}
+#showText{
+    float: left;
+}
+#showText2{
+    float: left;
+    margin: 70px;
+}
+
+#totalPrice{
+font-size: 60pt;
+}
